@@ -130,7 +130,7 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "http://127.0.0.1:8200"
+        url: "http://kubernetes:8200"
         root_token: "hvs.3II7iaETqizJGXXHDTNCMPAQ"
         secret_path: "secretsv2"
 
@@ -198,7 +198,7 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "http://127.0.0.1:8200"
+        url: "http://kubernetes:8200"
         root_token: "hvs.3II7iaETqizJGXXHDTNCMPAQ"
         secret_path: "secretsv2"
 
@@ -294,7 +294,7 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "http://127.0.0.1:8200"
+        url: "http://kubernetes:8200"
         root_token: "hvs.3II7iaETqizJGXXHDTNCMPAQ"
         secret_path: "secretsv2"
 
