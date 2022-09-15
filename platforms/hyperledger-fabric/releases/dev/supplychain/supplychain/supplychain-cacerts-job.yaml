@@ -29,8 +29,8 @@ spec:
       role: vault-role
       address: http://host.docker.internal:8200
       authpath: localsupplychain-net-auth
-      secretcryptoprefix: secret/data/crypto/ordererOrganizations/supplychain-net/ca
-      secretcredentialsprefix: secret/data/credentials/supplychain-net/ca/supplychain
+      secretcryptoprefix: secretsv2/data/crypto/ordererOrganizations/supplychain-net/ca
+      secretcredentialsprefix: secretsv2/data/credentials/supplychain-net/ca/supplychain
       serviceaccountname: vault-auth
       imagesecretname: regcred
       
