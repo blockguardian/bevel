@@ -27,7 +27,7 @@ spec:
 
     vault:
       role: vault-role
-      address: http://kubernetes:8200
+      address: http://kubernetes:53794
       authpath: localsupplychain-net-auth
       secretcryptoprefix: secretsv2/data/crypto/ordererOrganizations/supplychain-net/ca
       secretcredentialsprefix: secretsv2/data/credentials/supplychain-net/ca/supplychain
